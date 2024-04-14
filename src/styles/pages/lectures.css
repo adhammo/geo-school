@@ -1,0 +1,7 @@
+.lecture {
+  margin-bottom: 1rem;
+}
+
+.lecture:last-child {
+  margin-bottom: 0;
+}

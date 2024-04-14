@@ -1,0 +1,35 @@
+.lecture__title,
+.lecture__see-more {
+  opacity: 0.9;
+  border-bottom-style: dashed;
+}
+
+.lecture__title:hover,
+.lecture__title:focus,
+.lecture__see-more:hover,
+.lecture__see-more:focus {
+  opacity: 1;
+  border-bottom-style: solid;
+}
+
+.lecture__main > :last-child {
+  margin-bottom: 0;
+}
+
+.author {
+  flex-direction: row;
+}
+
+.author__name {
+  margin: 0 0 0 0.75rem;
+}
+
+@media only screen and (max-width: 425px) {
+  .author {
+    flex-direction: column;
+  }
+
+  .author__name {
+    margin: 0.75rem 0 0 0;
+  }
+}

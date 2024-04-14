@@ -1,0 +1,34 @@
+.social__item {
+  margin: 0 2rem 0 0;
+}
+
+.social__item:last-child {
+  margin: 0;
+}
+
+.social__link {
+  filter: contrast(0) brightness(1.4);
+}
+
+.social__link:hover,
+.social__link:focus {
+  filter: none;
+}
+
+.copyright {
+  flex-direction: row;
+}
+
+.copyright__tag {
+  margin-right: 0.4rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .copyright {
+    flex-direction: column;
+  }
+
+  .copyright__tag {
+    margin-right: 0;
+  }
+}

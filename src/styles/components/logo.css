@@ -1,0 +1,19 @@
+.logo {
+  flex-direction: row;
+}
+
+.logo__text {
+  margin: 0 0 0 1rem;
+  text-align: left;
+}
+
+@media only screen and (max-width: 768px) {
+  .logo {
+    flex-direction: column;
+  }
+
+  .logo__text {
+    margin: 1rem 0 0 0;
+    text-align: center;
+  }
+}

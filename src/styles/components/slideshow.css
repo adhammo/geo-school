@@ -1,0 +1,8 @@
+.image__button {
+  filter: brightness(90%);
+}
+
+.image__button:active,
+.image__button:hover {
+  filter: brightness(110%);
+}

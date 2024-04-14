@@ -1,0 +1,40 @@
+.nav__link:hover span,
+.nav__link:focus span {
+  color: inherit !important;
+}
+
+.dark__button .dark__button__ball {
+  background: #bcbcbc;
+}
+
+.dark__button:hover .dark__button__ball {
+  background: #fff;
+}
+
+.theme__button .theme__button__box {
+  filter: brightness(100%);
+}
+
+.theme__button:hover .theme__button__box {
+  filter: brightness(120%);
+}
+
+.dark__button .button__focus,
+.theme__button .button__focus {
+  border: 1px solid transparent;
+}
+
+.dark__button:focus .button__focus,
+.theme__button:focus .button__focus {
+  border: 1px solid white;
+}
+
+.menu__button--close {
+  filter: brightness(100%);
+}
+
+.menu__button--close:hover,
+.menu__button--close:active,
+.menu__button--close:focus {
+  filter: brightness(120%);
+}

@@ -1,0 +1,25 @@
+.header__container {
+  justify-content: space-between;
+}
+
+.menu__button--open {
+  filter: brightness(100%);
+}
+
+.menu__button--open:hover,
+.menu__button--open:active,
+.menu__button--open:focus {
+  filter: brightness(120%);
+}
+
+@media only screen and (max-width: 768px) {
+  .header__container {
+    justify-content: center;
+  }
+
+  .menu__button--open {
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+  }
+}
